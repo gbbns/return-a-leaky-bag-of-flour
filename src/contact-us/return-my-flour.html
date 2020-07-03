@@ -2,32 +2,32 @@
 layout: default
 id: index
 ---
-<div class="coop-l-wrap">
+<div class="coop-l-wrap coop-u-margin-b-64">
     <div class="coop-l-row">
         <div class="coop-l-column coop-l-large-5 coop-l-medium-8 coop-l-small-12">
             <h1>Return my flour</h1>
+            <form action="confirm-your-details.html" method="get">
             <form class="coop-form">
                 <fieldset class="coop-form">
                     <legend>Personal details</legend>
+
                     <div class="coop-form__row">
-                        <label for="address-line-1">Address line 1</label>
-                        <input type="text" id="address-line-1">
-                    </div> 
-                    <div class="coop-form__row">
-                        <label for="address-line-2">Address line 2</label>
-                        <input type="text" id="address-line-2">
+                        <label for="name">Address</label>
+                        <input id="address-line-1" type="text" name="address" class="coop-form__medium">
                     </div>
+
                     <div class="coop-form__row">
-                        <label for="town-or-city">Town or city</label>
-                        <input type="text" id="town-or-city" class="coop-form__medium">
+                        <label for="name">Town or city</label>
+                        <input id="town-or-city" type="text" name="town-or-city" class="coop-form__medium">
                     </div>
+
                     <div class="coop-form__row">
                         <label for="town-or-city">County</label>
-                        <input type="text" id="town-or-city" class="coop-form__medium">
+                        <input id="county" type="text" name="county" class="coop-form__medium">
                     </div>
                     <div class="coop-form__row">
                         <label for="postcode">Postcode</label>
-                        <input type="text" id="postcode" class="coop-form__small">
+                        <input id="postcode" type="text" name="postcode" class="coop-form__small">
                     </div>
                 </fieldset>
                 <div class="coop-form">
@@ -35,21 +35,30 @@ id: index
                     <fieldset class="coop-c-form-choice">
                         <legend class="coop-c-form-choice__legend">Size of flour bag:</legend>
                         <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-1-500g" value="1" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="option-1-500g">500g</label>
+                            <input type="radio" name="option" id="option-1" value="500g" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-1">500g</label>
                         </div>
                         <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-2-1kg" value="2" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="option-2-1kg">1kg</label>
+                            <input type="radio" name="option" id="option-2" value="1kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-2">1kg</label>
                         </div>
                         <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-3-2kg" value="3" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="option-3-2kg">2kg</label>
+                            <input type="radio" name="option" id="option-3" value="2kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-3">2kg</label>
                         </div>
                         <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-4-100kg" value="4" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="option-4-100kg">100kg</label>
+                            <input type="radio" name="option" id="option-4" value="100kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-4">100kg</label>
                         </div>
+
+
+
+
+
+
+
+
+
                     </fieldset>
                     <p>Download photos of flour</p>
                 </div>
