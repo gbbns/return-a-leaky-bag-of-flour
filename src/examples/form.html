@@ -1,0 +1,68 @@
+---
+layout: default
+id: form
+---
+<div class="coop-l-wrap">
+    <div class="coop-l-row coop-u-margin-b-64">
+        <div class="coop-l-column coop-l-large-6">
+
+            <h1>Form example</h1>
+
+            <form action="summary.html" method="get">
+                <div class="coop-u-margin-b-32">
+                    <label for="name">Your name</label>
+                    <input id="name" type="text" name="name">
+                </div>
+
+                <div class="coop-u-margin-b-32">
+                    <label for="age">Your age</label>
+                    <select id="age" name="age">
+                        <option value="0-29">0-29</option>
+                        <option value="30-44">30-44</option>
+                        <option value="44-59">44-59</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </div>
+
+                <div class="coop-u-margin-b-32">
+                    <label for="address">Your address</label>
+                    <textarea name="address" id="address" cols="30" rows="4"></textarea>
+                </div>
+
+                <div class="coop-c-form-choice coop-u-margin-b-32">
+                    <fieldset class="coop-c-form-choice">
+                        <legend class="coop-c-form-choice__legend">Type of delivery</legend>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="option" id="option-1" value="Free delivery" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-1">Free delivery</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="option" id="option-2" value="Next day delivery" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-2">Next day delivery — £4.99</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="coop-c-form-choice coop-u-margin-b-32">
+                    <fieldset class="coop-c-form-choice">
+                        <legend class="coop-c-form-choice__legend">Get updates by:</legend>
+                        <div class="coop-c-form-choice">
+                            <input type="checkbox" name="updates_by_phone" id="updates_by_phone" value="1" class="coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+                            <label for="updates_by_phone" class="coop-c-form-choice__label">Phone</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="checkbox" name="updates_by_email" id="updates_by_email" value="1" class="coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+                            <label for="updates_by_email" class="coop-c-form-choice__label">Email</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="coop-u-margin-b-32">
+                    <button class="coop-btn coop-btn--primary">Submit</button>
+                </div>
+            </form>
+
+            <p><a href="summary.html">View summary</a></p>
+        </div>
+    </div>
+</div>
