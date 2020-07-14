@@ -13,17 +13,17 @@ id: form
 
                     <div class="coop-form__row">
                         <label for="name">Address</label>
-                        <input id="address-line-1" type="text" name="address" class="coop-form__medium">
+                        <input id="address-line-1" type="text" name="address" class="coop-form__medium" tabindex="1">
                     </div>
 
                     <div class="coop-form__row">
                         <label for="name">Town or city</label>
-                        <input id="town-or-city" type="text" name="town-or-city" class="coop-form__medium">
+                        <input id="town-or-city" type="text" name="town-or-city" class="coop-form__medium" tabindex="-1">
                     </div>
 
                     <div class="coop-form__row">
                         <label for="town-or-city">County</label>
-                        <input id="county" type="text" name="county" class="coop-form__medium">
+                        <input id="county" type="text" name="county" class="coop-form__medium" tabindex="3">
                     </div>
                     <div class="coop-form__row">
                         <label for="postcode">Postcode</label>
@@ -51,9 +51,16 @@ id: form
                             <label class="coop-c-form-choice__label" for="option-4">100kg</label>
                         </div>
                     </fieldset>
-                    <p>Download photos of flour</p>
+                    <p><a href="/assets/flour.pdf">Download photos of flour</a></p>
                 </div>
-                <button class="coop-btn coop-btn--primary">Submit</button>
+                <button class="coop-btn coop-btn--primary coop-u-margin-resp-b-32-16">Submit</button>
+                <p><a href="#" id="toggle" class="toggle">&#9660; View terms and conditions</a></p>
+                <div id="content">
+                    <div>
+                        <p>A. THIS SITE MAY CONTAIN INACCURACIES AND TYPOGRAPHICAL ERRORS. WE DOES NOT WARRANT THE ACCURACY OR COMPLETENESS OF THE MATERIALS OR THE RELIABILITY OF ANY ADVICE, OPINION, STATEMENT OR OTHER INFORMATION DISPLAYED OR DISTRIBUTED THROUGH THE SITE. YOU EXPRESSLY UNDERSTAND AND AGREE THAT: (i) YOUR USE OF THE SITE, INCLUDING ANY RELIANCE ON ANY SUCH OPINION, ADVICE, STATEMENT, MEMORANDUM, OR INFORMATION CONTAINED HEREIN, SHALL BE AT YOUR SOLE RISK; (ii) THE SITE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS; (iii) EXCEPT AS EXPRESSLY PROVIDED HEREIN WE DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, WORKMANLIKE EFFORT, TITLE AND NON-INFRINGEMENT; (iv) WE MAKE NO WARRANTY WITH RESPECT TO THE RESULTS THAT MAY BE OBTAINED FROM THIS SITE, THE PRODUCTS OR SERVICES ADVERTISED OR OFFERED OR MERCHANTS INVOLVED; (v) ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SITE IS DONE AT YOUR OWN DISCRETION AND RISK; and (vi) YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR FOR ANY LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL.</p>
+                        <p>B. YOU UNDERSTAND AND AGREE THAT UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, SHALL WE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES THAT RESULT FROM THE USE OF, OR THE INABILITY TO USE, ANY OF OUR SITES OR MATERIALS OR FUNCTIONS ON ANY SUCH SITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.</p>
+                    </div>
+                </div>
             </form>
 
         </div>

@@ -1,10 +1,10 @@
 # Jekyll config
 
 # Site settings
-title: Co-op Prototyping Kit
-description: Co-op Prototyping Kit
+title: Co-op accessibility exercise
+description: Return a leaky flour bag is a made-up Co-op journey, filled with accessibility issues. Your task is to find them all!t
 baseurl: ""
-url: "http://coop-prototyping-kit.heroku.com"
+url: "https://return-leaky-flour.herokuapp.com"
 
 # Build settings
 source: ./
