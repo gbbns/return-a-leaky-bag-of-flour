@@ -17,7 +17,6 @@
 @import "@coopdigital/shared-component--offers";
 
 .coop-logo path {
-  fill: #00b1e7;
   fill: var(--color-brand);
 }
 
@@ -99,7 +98,6 @@ ul .red-bullet::before {
   overflow: hidden;
   min-height: 0;
   height: 0;
-  -webkit-transition: background 0.1s linear 0s;
   transition: all 0.1s linear 0s;
 }
 
@@ -122,10 +120,8 @@ ul .red-bullet::before {
   font-weight: bold;
   font-size: var(--type-h2-s);
   margin-bottom: var(--spacing-8);
-}
 
-@media (--mq-medium) {
-  .fake-h2 {
+  @media (--mq-medium) {
     font-size: var(--type-h2-l);
     margin-bottom: var(--spacing-16);
   }
