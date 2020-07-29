@@ -90,10 +90,6 @@ ul .red-bullet::before {
   outline: none;
 }
 
-.coop-c-form-choice__input:focus + .coop-c-form-choice__label::before {
-  outline: 2px solid #eb5f1e;
-}
-
 #content {
   overflow: hidden;
   min-height: 0;
